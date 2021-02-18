@@ -1,0 +1,49 @@
+.container{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding: 10px;
+    width: 120px;
+    height: 200px;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+    width: 800px;
+}
+
+th{
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+}
+
+td{
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 225px;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+}
+
+.deletebutton{
+    width: 60px;
+    height: 30px;
+    background-color: crimson;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    color: white;
+}
